@@ -3,10 +3,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>Posco</groupId>
-	<artifactId>210108_Cucumber</artifactId>
+	<artifactId>210128_CodeKata</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>maven-cucumber-docker</name>
-	<url>https://github.com/hughharford/maven-cucumber-docker.git</url>
+	<name>CodeKata</name>
+	<url></url>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -26,6 +26,14 @@
 	</properties>
 
 	<dependencies>
+
+		<!-- dependency locally git cloned & installed -->
+		<!-- see dependencyNote__Algs4 in src/main/resources -->
+		<dependency>
+			<groupId>edu.princeton.cs</groupId>
+			<artifactId>algs4</artifactId>
+			<version>1.0.0.0</version>
+		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

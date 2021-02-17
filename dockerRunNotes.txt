@@ -7,7 +7,7 @@ docker run -it --rm --name ra dockerfile:latest
 ### THIS runs the container
 
 ###### run the app from inside:
-java -cp 210108_cucumber/target/210108_Cucumber-0.0.1-SNAPSHOT.jar com.posco.RunApp
+java -cp 210128_CodeKata/target/210128_CodeKata-0.0.1-SNAPSHOT.jar com.posco.RunApp
 
 
 ####### run app from outside the container:

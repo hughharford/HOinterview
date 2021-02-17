@@ -30,3 +30,15 @@
 2021-01-27 10:50:00 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
 2021-01-27 10:50:00 [Thread-1] INFO  o.s.c.a.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@df6620a: startup date [Wed Jan 27 10:50:00 GMT 2021]; root of context hierarchy
 2021-01-27 10:50:00 [Thread-1] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2021-01-28 11:08:38 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@df6620a: startup date [Thu Jan 28 11:08:38 GMT 2021]; root of context hierarchy
+2021-01-28 11:08:38 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2021-01-28 11:08:38 [Thread-1] INFO  o.s.c.a.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@df6620a: startup date [Thu Jan 28 11:08:38 GMT 2021]; root of context hierarchy
+2021-01-28 11:08:38 [Thread-1] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2021-02-01 06:23:55 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5524cca1: startup date [Mon Feb 01 06:23:55 GMT 2021]; root of context hierarchy
+2021-02-01 06:23:56 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2021-02-01 06:23:56 [Thread-2] INFO  o.s.c.a.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@5524cca1: startup date [Mon Feb 01 06:23:55 GMT 2021]; root of context hierarchy
+2021-02-01 06:23:56 [Thread-2] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2021-02-01 06:27:39 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@353352b6: startup date [Mon Feb 01 06:27:39 GMT 2021]; root of context hierarchy
+2021-02-01 06:27:40 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2021-02-01 06:27:40 [Thread-2] INFO  o.s.c.a.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@353352b6: startup date [Mon Feb 01 06:27:39 GMT 2021]; root of context hierarchy
+2021-02-01 06:27:40 [Thread-2] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown

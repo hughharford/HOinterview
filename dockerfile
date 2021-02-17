@@ -13,10 +13,10 @@ RUN apt -y install maven
 # COPY pom.xml /210108_cucumber/
 
 # get source code
-COPY . /210108_cucumber/
+COPY . /210128_CodeKata/
 
 # build with maven
-WORKDIR /210108_cucumber/
+WORKDIR /210128_CodeKata/
 
 # this doesn't prevent mvn package from downloading everything everytime...?
 #### RUN mvn dependency:go-offline
@@ -27,5 +27,5 @@ RUN mvn package
 WORKDIR /
 
 # Default command
-ENTRYPOINT ["java", "-cp", "210108_cucumber/target/210108_Cucumber-0.0.1-SNAPSHOT.jar", "com.posco.RunApp"]
+ENTRYPOINT ["java", "-cp", "210128_CodeKata/target/210128_CodeKata-0.0.1-SNAPSHOT.jar", "com.posco.RunApp"]
 

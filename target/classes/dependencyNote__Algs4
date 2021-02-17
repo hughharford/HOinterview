@@ -1,0 +1,12 @@
+# run the following on the command line in the git folder
+
+git clone https://github.com/kevin-wayne/algs4
+cd algs4
+mvn clean install
+
+# then add the maven dependency to the pom.xml
+<dependency>
+    <groupId>edu.princeton.cs</groupId>
+    <artifactId>algs4</artifactId>
+    <version>1.0.0.0</version>
+</dependency>
