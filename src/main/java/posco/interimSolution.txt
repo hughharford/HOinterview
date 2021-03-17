@@ -1,0 +1,16 @@
+	/* FOR THE RECORD, ORIGINAL VERSION
+    public static int getGroupedAnagrams(List<String> words) {
+
+        Set<String> groupA = new HashSet<String>();
+                
+        //* use Streams instead of for loop, if warranted
+        for (String s : words) {
+            
+            char[] cs = s.toCharArray();
+            Arrays.sort(cs);       //* this sort is the complexity issue versus N
+            groupA.add(new String(cs));
+        }
+        return groupA.size();
+
+    }
+    */
